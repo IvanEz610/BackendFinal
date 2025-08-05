@@ -27,6 +27,8 @@
 </head>
 
 <body>
+
+
     <!-- Navbar Start -->
     <div class="container-fluid p-0 nav-bar">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
@@ -58,7 +60,7 @@
                     <img class="w-100" src="img/pastelcarrusel.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <h2 class="text-primary font-weight-medium m-0">Nosotros hemos estando creando</h2>
-                        <h1 class="display-1 text-white m-0">PASTELES</h1>
+                        <h1 class="display-1 text-white m-0">TORTAS</h1>
                         <h2 class="text-white m-0">* DESDE 2007 *</h2>
                     </div>
                 </div>
@@ -119,31 +121,18 @@
     <div class="container-fluid pt-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Services</h4>
-                <h1 class="display-4">Fresh & Organic Beans</h1>
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Nuestros servicios</h4>
+                <h1 class="display-4">Sabor & Calidad</h1>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-lg-6 mb-5">
                     <div class="row align-items-center">
                         <div class="col-sm-5">
                             <img class="img-fluid mb-3 mb-sm-0" src="img/service-1.jpg" alt="">
                         </div>
                         <div class="col-sm-7">
-                            <h4><i class="fa fa-truck service-icon"></i>Fastest Door Delivery</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-2.jpg" alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <h4><i class="fa fa-coffee service-icon"></i>Fresh Coffee Beans</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                            <h4><i class="fa fa-truck service-icon"></i>Delivery</h4>
+                            <p class="m-0">Delivery rápido y confiable de productos artesanales frescos, con atención personalizada y entrega cuidadosa.</p>
                         </div>
                     </div>
                 </div>
@@ -153,21 +142,19 @@
                             <img class="img-fluid mb-3 mb-sm-0" src="img/service-3.jpg" alt="">
                         </div>
                         <div class="col-sm-7">
-                            <h4><i class="fa fa-award service-icon"></i>Best Quality Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                            <h4><i class="fa fa-award service-icon"></i>Productos de calidad</h4>
+                            <p class="m-0">Productos de calidad artesanal, elaborados con ingredientes frescos y seleccionados, que garantizan sabor auténtico y frescura en cada bocado. Comprometidos con la excelencia para ofrecer siempre lo mejor a nuestros clientes.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 mb-5">
+                <div class="col-lg-6 mb-5 ">
                     <div class="row align-items-center">
                         <div class="col-sm-5">
                             <img class="img-fluid mb-3 mb-sm-0" src="img/service-4.jpg" alt="">
                         </div>
                         <div class="col-sm-7">
-                            <h4><i class="fa fa-table service-icon"></i>Online Table Booking</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                            <h4><i class="fa fa-table service-icon"></i>Pedidos Online</h4>
+                            <p class="m-0">Pedidos online fáciles y rápidos para encargar tus productos favoritos. Elegí delivery o retiro en sucursal, con frescura, calidad y atención personalizada en cada entrega.</p>
                         </div>
                     </div>
                 </div>
@@ -181,75 +168,50 @@
         <div class="container">
             <div class="section-title">
                 <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Menú & Precios</h4>
-                <h1 class="display-4">Competitive Pricing</h1>
+                <h1 class="display-4">Buenos precios y variedad</h1>
             </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <h1 class="mb-5">Hot Coffee</h1>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
-                            <h5 class="menu-price">$5</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Black Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
-                            <h5 class="menu-price">$7</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Chocolete Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
-                            <h5 class="menu-price">$9</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Coffee With Milk</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="mb-5">Cold Coffee</h1>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
-                            <h5 class="menu-price">$5</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Black Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
-                            <h5 class="menu-price">$7</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Chocolete Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
-                            <h5 class="menu-price">$9</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Coffee With Milk</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="row justify-content-center"> 
+                
+                <?php
+        // 1) Conexion
+        $conexion = mysqli_connect("127.0.0.1", "root", "");
+        mysqli_select_db($conexion, "delidia");
+
+        // 2) Preparar la orden SQL
+        // Sintaxis SQL SELECT
+        // SELECT * FROM nombre_tabla
+        // => Selecciona todos los campos de la siguiente tabla
+        // SELECT campos_tabla FROM nombre_tabla
+        // => Selecciona los siguientes campos de la siguiente tabla
+        $consulta='SELECT * FROM productos';
+
+        // 3) Ejecutar la orden y obtenemos los registros
+        $datos= mysqli_query($conexion, $consulta);
+
+        // 4) el while recorre todos los registros y genera una CARD PARA CADA UNA
+
+$count = 0; // empieza en 0
+$limit = 9;
+
+while ($reg = mysqli_fetch_array($datos)) {
+    if ($count >= $limit) break; // sale al llegar a 5
+
+    ?>
+<div class="card col-sm-12 col-md-6 col-lg-3 shadow mb-3 mx-2">
+    <img class="card-img-top" src="data:image/jpg;base64,<?php echo base64_encode($reg['imagen']); ?>" alt="" style="height: 200px; object-fit: cover;">
+    <div class="card-body text-center">
+        <h4 class="card-title"><?php echo ucwords($reg['nombre']); ?></h4>
+        <span class="btn btn-success mt-2">$ <?php echo $reg['precio']; ?></span>
+        <!-- Puedes añadir más contenido aquí -->
+        <a href="#" class="btn btn-primary mt-2">Ver más</a>
+    </div>
+</div>
+    <?php
+
+    $count++; // incremento contador
+
+     } ?>
+                
             </div>
         </div>
     </div>
@@ -377,17 +339,17 @@
 
     <!-- Footer Start -->
     <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
-        <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
+        <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4 justify-content-center">
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Get In Touch</h4>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>Mayor Irusta, Buenos Aires, Argentina</p>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Buenos Aires, Argentina</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+54 011 3456 XXXX</p>
                 <p class="m-0"><i class="fa fa-envelope mr-2"></i>delidia@gmail.com</p>
             </div>
 
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Follow Us</h4>
-                <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Seguinos</h4>
+                <p>Seguinos en nuestras redes para estar al tanto de las nuevas novendades</p>
                 <div class="d-flex justify-content-start">
                     <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -404,18 +366,7 @@
                     <p>2.00 PM - 8.00 PM</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newsletter</h4>
-                <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
-                <div class="w-100">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary font-weight-bold px-3">Sign Up</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
 
     </div>

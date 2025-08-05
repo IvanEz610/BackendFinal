@@ -38,17 +38,11 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4">
-                    <a href="index.php" class="nav-item nav-link">Inicio</a>
+                    <a href="index.php" class="nav-item nav-link active">Inicio</a>
                     <a href="about.php" class="nav-item nav-link">Sobre</a>
-                    <a href="service.php" class="nav-item nav-link">Servicio</a>
-                    <a href="menu.php" class="nav-item nav-link active">Menú</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu text-capitalize">
-                            <a href="reservation.php" class="dropdown-item">Reservaciones</a>
-                            <a href="testimonial.php" class="dropdown-item">Testimonios</a>
-                        </div>
-                    </div>
+                    <a href="menu.php" class="nav-item nav-link">Menú</a>
+                    <a href="reservation.php" class="nav-item nav-link">Reservaciones</a>
+                    <a href="testimonial.php" class="nav-item nav-link">Testimonios</a>
                     <a href="contact.php" class="nav-item nav-link">Contacto</a>
                 </div>
             </div>
@@ -62,7 +56,7 @@
         <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
             <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">Menú</h1>
             <div class="d-inline-flex mb-lg-5">
-                <p class="m-0 text-white"><a class="text-white" href="">Inicio</a></p>
+                <p class="m-0 text-white"><a class="text-white" href="index.php">Inicio</a></p>
                 <p class="m-0 text-white px-2">/</p>
                 <p class="m-0 text-white">Menú</p>
             </div>
@@ -76,75 +70,38 @@
         <div class="container">
             <div class="section-title">
                 <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Menú & Precios</h4>
-                <h1 class="display-4">Competitive Pricing</h1>
+                <h1 class="display-4">Buenos precios y variedad</h1>
             </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <h1 class="mb-5">Hot Coffee</h1>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
-                            <h5 class="menu-price">$5</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Black Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
-                            <h5 class="menu-price">$7</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Chocolete Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
-                            <h5 class="menu-price">$9</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Coffee With Milk</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="mb-5">Cold Coffee</h1>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
-                            <h5 class="menu-price">$5</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Black Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
-                            <h5 class="menu-price">$7</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Chocolete Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class="col-4 col-sm-3">
-                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
-                            <h5 class="menu-price">$9</h5>
-                        </div>
-                        <div class="col-8 col-sm-9">
-                            <h4>Coffee With Milk</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="row justify-content-center">
+                <?php
+        // 1) Conexion
+        $conexion = mysqli_connect("127.0.0.1", "root", "");
+        mysqli_select_db($conexion, "delidia");
+
+        // 2) Preparar la orden SQL
+        // Sintaxis SQL SELECT
+        // SELECT * FROM nombre_tabla
+        // => Selecciona todos los campos de la siguiente tabla
+        // SELECT campos_tabla FROM nombre_tabla
+        // => Selecciona los siguientes campos de la siguiente tabla
+        $consulta='SELECT * FROM productos';
+
+        // 3) Ejecutar la orden y obtenemos los registros
+        $datos= mysqli_query($conexion, $consulta);
+
+        // 4) el while recorre todos los registros y genera una CARD PARA CADA UNA
+
+        while ($reg = mysqli_fetch_array($datos)) {?>
+<div class="card col-sm-12 col-md-6 col-lg-3 shadow mb-3 mx-2">
+    <img class="card-img-top" src="data:image/jpg;base64,<?php echo base64_encode($reg['imagen']); ?>" alt="" style="height: 200px; object-fit: cover;">
+    <div class="card-body text-center">
+        <h4 class="card-title"><?php echo ucwords($reg['nombre']); ?></h4>
+        <span class="btn btn-success mt-2">$ <?php echo $reg['precio']; ?></span>
+        <!-- Puedes añadir más contenido aquí -->
+        <a href="#" class="btn btn-primary mt-2">Ver más</a>
+    </div>
+</div>
+        <?php } ?>
             </div>
         </div>
     </div>
@@ -156,14 +113,14 @@
         <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Get In Touch</h4>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>Mayor Irusta, Buenos Aires, Argentina</p>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Buenos Aires, Argentina</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+54 011 3456 XXXX</p>
                 <p class="m-0"><i class="fa fa-envelope mr-2"></i>delidia@gmail.com</p>
             </div>
 
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Follow Us</h4>
-                <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Seguinos</h4>
+                <p>Seguinos en nuestras redes para estar al tanto de las nuevas novendades</p>
                 <div class="d-flex justify-content-start">
                     <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -180,18 +137,7 @@
                     <p>2.00 PM - 8.00 PM</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newsletter</h4>
-                <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
-                <div class="w-100">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary font-weight-bold px-3">Sign Up</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
 
     </div>

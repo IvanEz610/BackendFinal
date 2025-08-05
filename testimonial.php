@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DELIDIA - Coffee Shop HTML Template</title>
+    <title>DELIDIA - Panaderia&Confiteria</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free Website Template" name="keywords">
     <meta content="Free Website Template" name="description">
@@ -38,17 +38,11 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4">
-                    <a href="index.php" class="nav-item nav-link">Inicio</a>
+                    <a href="index.php" class="nav-item nav-link active">Inicio</a>
                     <a href="about.php" class="nav-item nav-link">Sobre</a>
-                    <a href="service.php" class="nav-item nav-link">Servicio</a>
                     <a href="menu.php" class="nav-item nav-link">Menú</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu text-capitalize">
-                            <a href="reservation.php" class="dropdown-item">Reservaciones</a>
-                            <a href="testimonial.php" class="dropdown-item active">Testimonios</a>
-                        </div>
-                    </div>
+                    <a href="reservation.php" class="nav-item nav-link">Reservaciones</a>
+                    <a href="testimonial.php" class="nav-item nav-link">Testimonios</a>
                     <a href="contact.php" class="nav-item nav-link">Contacto</a>
                 </div>
             </div>
@@ -130,14 +124,14 @@
         <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Get In Touch</h4>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>Mayor Irusta, Buenos Aires, Argentina</p>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Buenos Aires, Argentina</p>
                 <p><i class="fa fa-phone-alt mr-2"></i>+54 011 3456 XXXX</p>
                 <p class="m-0"><i class="fa fa-envelope mr-2"></i>delidia@gmail.com</p>
             </div>
 
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Follow Us</h4>
-                <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Seguinos</h4>
+                <p>Seguinos en nuestras redes para estar al tanto de las nuevas novendades</p>
                 <div class="d-flex justify-content-start">
                     <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -154,18 +148,7 @@
                     <p>2.00 PM - 8.00 PM</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newsletter</h4>
-                <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
-                <div class="w-100">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary font-weight-bold px-3">Sign Up</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
 
     </div>
