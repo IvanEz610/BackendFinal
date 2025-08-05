@@ -9647,8 +9647,17 @@ h6,
 .page-header,
 .offer,
 .footer {
-  background: linear-gradient(rgba(51, 33, 29, 0.9), rgba(51, 33, 29, 0.9)), url(../img/bg.jpg);
+  background: linear-gradient(rgba(51, 33, 29, 0.9), rgba(51, 33, 29, 0.9)), url(../img/chocolate.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+  #alerta-centro {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 320px;
+      z-index: 1050;
+    }
