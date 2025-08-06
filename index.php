@@ -24,10 +24,10 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.min.css" rel="stylesheet">
+
 </head>
 
 <body>
-
 
     <!-- Navbar Start -->
     <div class="container-fluid p-0 nav-bar">
@@ -46,6 +46,13 @@
                     <a href="reservation.php" class="nav-item nav-link">Reservaciones</a>
                     <a href="testimonial.php" class="nav-item nav-link">Testimonios</a>
                     <a href="contact.php" class="nav-item nav-link">Contacto</a>
+                    <div class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">INGRESO</a>
+                        <div class="dropdown-menu text-capitalize">
+                            <a href="loginresgi.html" class="dropdown-item">Registrarse</a>
+                            <a href="loginis.html" class="dropdown-item">Iniciar Sesión</a>
+                        </div>
+                    </div>     
                 </div>
             </div>
         </nav>
